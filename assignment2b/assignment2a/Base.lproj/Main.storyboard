@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wgP-Nx-bcl" userLabel="PaymentView">
-                                <rect key="frame" x="10" y="60" width="355" height="60"/>
+                                <rect key="frame" x="10" y="30" width="355" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YDO-qh-oGS" userLabel="Payments">
                                         <rect key="frame" x="185" y="10" width="150" height="30"/>
@@ -55,7 +55,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1A-Yd-R9w" userLabel="RateView">
-                                <rect key="frame" x="10" y="128" width="355" height="60"/>
+                                <rect key="frame" x="10" y="98" width="355" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rate:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VS3-QN-y7h">
                                         <rect key="frame" x="8" y="14" width="150" height="22.5"/>
@@ -84,7 +84,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eNB-gd-B6w" userLabel="LoanAmtView">
-                                <rect key="frame" x="10" y="196" width="355" height="60"/>
+                                <rect key="frame" x="10" y="166" width="355" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loan Amount:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cv3-Br-qaR">
                                         <rect key="frame" x="8" y="14" width="150" height="22.5"/>
@@ -113,7 +113,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CSp-oT-pk5" userLabel="PaymentResultView">
-                                <rect key="frame" x="10" y="264" width="355" height="60"/>
+                                <rect key="frame" x="10" y="234" width="355" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BeR-5r-Tlr">
                                         <rect key="frame" x="185" y="10" width="150" height="30"/>
@@ -152,10 +152,10 @@
                             <constraint firstItem="n1A-Yd-R9w" firstAttribute="height" secondItem="wgP-Nx-bcl" secondAttribute="height" id="BaK-do-LXb"/>
                             <constraint firstItem="wgP-Nx-bcl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="GYd-PY-Sir"/>
                             <constraint firstItem="eNB-gd-B6w" firstAttribute="top" secondItem="n1A-Yd-R9w" secondAttribute="bottom" constant="8" id="JOG-dN-bKL"/>
-                            <constraint firstItem="Wua-ZX-gLn" firstAttribute="top" secondItem="CSp-oT-pk5" secondAttribute="bottom" constant="100" id="K7Y-WC-qfc"/>
                             <constraint firstItem="n1A-Yd-R9w" firstAttribute="width" secondItem="wgP-Nx-bcl" secondAttribute="width" id="Ryq-Z6-n6Z"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wgP-Nx-bcl" secondAttribute="trailing" constant="10" id="ZDI-RE-s4V"/>
                             <constraint firstItem="Wua-ZX-gLn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="155" id="bnD-Jx-dLe"/>
+                            <constraint firstItem="wgP-Nx-bcl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hdZ-1c-4eX"/>
                             <constraint firstItem="eNB-gd-B6w" firstAttribute="height" secondItem="wgP-Nx-bcl" secondAttribute="height" id="hhM-mg-Dkz"/>
                             <constraint firstItem="CSp-oT-pk5" firstAttribute="width" secondItem="wgP-Nx-bcl" secondAttribute="width" id="jpY-Qd-eg9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wua-ZX-gLn" secondAttribute="trailing" constant="156" id="quW-FV-R07"/>
