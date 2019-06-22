@@ -55,7 +55,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wua-ZX-gLn">
-                                <rect key="frame" x="155" y="430" width="64" height="30"/>
+                                <rect key="frame" x="155.5" y="430" width="64" height="30"/>
                                 <state key="normal" title="Calculate"/>
                                 <connections>
                                     <action selector="calcButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HOq-FK-J9H"/>
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="109.29535232383809"/>
+            <point key="canvasLocation" x="63" y="60"/>
         </scene>
     </scenes>
 </document>
